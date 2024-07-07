@@ -1,0 +1,15 @@
+default:
+  browser: chrome
+  headless: true  # Change this to true to run in headless mode
+  timeout: 10
+
+environments:
+  chrome:
+    browser: chrome
+    headless: true
+  firefox:
+    browser: firefox
+    headless: true
+  edge:
+    browser: edge
+    headless: true
