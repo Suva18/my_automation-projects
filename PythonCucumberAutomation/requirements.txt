@@ -1,0 +1,6 @@
+behave
+selenium
+pytest
+pytest-bdd
+pytest-html
+pyyaml
