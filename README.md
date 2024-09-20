@@ -1,5 +1,5 @@
 # Automation Projects
-Welcome to the Automation Projects repository! This repository contains various automation projects built using different tools and frameworks such as Python with Cucumber, Playwright, aiTest, and Selenium. Each project is organized into its own directory with clear instructions on how to set up, run, and expand the automation tests.
+Welcome to the Automation Projects repository! This repository contains various automation projects built using tools and frameworks such as Python with Cucumber, Playwright, aiTest, and Selenium. Each project is organized into its directory with clear instructions on how to set up, run, and expand the automation tests.
 
 # Repository Structure
 **PythonCucumberAutomation**
@@ -10,13 +10,11 @@ A set of Python scripts for automation testing, using Selenium for UI automation
 Automation with aiTest, leveraging AI-driven test features.
 **playwright-automation**
 Playwright automation scripts for end-to-end browser testing.
-**.gitignore**
-Ensures sensitive and unnecessary files are not committed to the repository.
 
 # Getting Started
 Follow the instructions below to set up and run each of the automation projects.
 **Prerequisites**
-Python 3.x installed on your machine
+Python 3. x installed on your machine
 Git for cloning the repository
 A package manager like pip for installing dependencies
 Web browsers (Chrome, Firefox, Edge) for Playwright automation
@@ -31,7 +29,7 @@ cd PythonCucumberAutomation
 **Install required dependencies**
 ` pip install -r requirements.txt `
 How to Run Tests
-Update the feature files under features/ directory.
+Could you update the feature files under the features/ directory?
 Execute the tests using the command:
 `behave`
 **Key Features**
@@ -46,7 +44,7 @@ cd Python_automation
 **Install dependencies**
 ` pip install -r requirements.txt `
 How to Run Tests
-Update the test cases under tests/ directory.
+Update the test cases under the tests/ directory.
 Execute tests using pytest:
 ` pytest `
 Key Features
@@ -85,12 +83,9 @@ Cross-browser testing: Supports Chrome, Firefox, and Edge.
 HTML Reports: Detailed reports with test results.
 Headless Testing: Faster test execution by running in headless mode.
 
-**.gitignore**
-This file ensures that unnecessary files are not committed to the repository, such as:
-
 **Python virtual environments**
 Node modules
 Log files
-OS-specific files (e.g., .DS_Store)
+OS-specific files (e.g., DS_Store)
 Contributing
 Feel free to open issues or contribute by creating a pull request for bug fixes or new features. Ensure all tests pass before submitting.
